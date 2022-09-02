@@ -1,7 +1,9 @@
-# Sugarcane dataset for co-expression analysis
-Dataset to assess gene co-expression for wild sugarcane Saccharum spontaneum AP85-441.
+# Sugarcane dataset for gene-expression analysis
+Dataset to assess gene expression for wild sugarcane Saccharum spontaneum AP85-441.
 
-Each file contains a matrix for co-expression analysis at gene-level. That means, the allele specific expression was consolidated for each representative gene. We shared the matrix using the identifiers of 2018 and 2019 versions of the genome.
+This repository consolidates expression matrices at the gene level for cultivar AP85-441 of sugarcane using the allele-level information for genome versions called v2018 and v2019. 
+More specifically, we shared two BLASTn outputs between v2018 and v2019 alleles, and viceversa. We applied an optimization matching algorithm to maximize global identity while ensuring that data was not duplicated. Finally, we consolidated the expression values from the allele to the gene level. The resulting shared expression matrices comprise 96 experiments and 109050 and 35516 genes for v2018 and v2019 genomes, respectively. We also shared the expression matrices at allele-level. 
+These datasets and the code that generates it are available for the community, so that further enrichment analysis can be performed on sugarcane as well as on other organisms.
 
 Enjoy it!
 
